@@ -8,7 +8,9 @@ framework:
              async: '%env(MESSENGER_TRANSPORT_DSN)%'
             # failed: 'doctrine://default?queue_name=failed'
             # sync: 'sync://'
-
+             node_messages:
+               dsn: '%env(MESSENGER_TRANSPORT_DSN)%'
+               serializer: App\Serializer\NodeMessagesSerializer
         routing:
             # Route your messages to the transports
             'App\Entity\MyMessage': async

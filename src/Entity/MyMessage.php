@@ -32,6 +32,18 @@ class MyMessage
      */
     private $content;
 
+    /**
+     * @param $sender
+     * @param $receiver
+     * @param $content
+     */
+    public function __construct($sender, $receiver, $content)
+    {
+        $this->sender = $sender;
+        $this->receiver = $receiver;
+        $this->content = $content;
+    }
+
     public function getId(): ?int
     {
         return $this->id;
