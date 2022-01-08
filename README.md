@@ -9,6 +9,11 @@ Tutorial #1: https://youtu.be/InEy52NhU5Q
 Article: https://devbrains.tn/tutorials/discover-rabbitmq-with-symfony-5-project
 
 Blog: https://devbrains.tn/blog/discover-rabbitmq-with-symfony-5
+
+Tutorial (With node.js) #2: https://youtu.be/CKHRYj4cAcI
+
+Article: https://devbrains.tn/tutorials/discover-rabbitmq-with-node-js
+
 ## Notes : 
 -Create your own instance on https://www.cloudamqp.com/
 
